@@ -1,11 +1,12 @@
 import React from "react";
+import photo2 from "../assets/photo2.jpg";
 
 const About = () => (
   <section className="about section" id="about">
     <h2 className="section-title">About</h2>
     <div className="about__container bd-grid">
       <div className="about__img">
-        <img src="../assets/photo2.jpg" alt="Ashik" />
+        <img src={photo2} alt="Ashik" />
       </div>
       <div>
         {/* <h2 className="about__subtitle">I'am Ashik</h2> */}

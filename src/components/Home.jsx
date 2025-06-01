@@ -1,4 +1,5 @@
 import React from "react";
+import ashikPhoto from "../assets/ashik_photo.png";
 
 const Home = () => (
   <>
@@ -16,11 +17,7 @@ const Home = () => (
       </div>
       <div className="home__img-bg">
         <div className="home__img">
-          <img
-            src="../assets/ashik_photo.png"
-            alt="Ashik"
-            className="home__blob-img"
-          />
+          <img src={ashikPhoto} alt="Ashik" className="home__blob-img" />
         </div>
       </div>
     </section>
