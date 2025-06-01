@@ -17,7 +17,7 @@ const Home = () => (
       <div className="home__img-bg">
         <div className="home__img">
           <img
-            src="/src/assets/ashik_photo.png"
+            src="../assets/ashik_photo.png"
             alt="Ashik"
             className="home__blob-img"
           />

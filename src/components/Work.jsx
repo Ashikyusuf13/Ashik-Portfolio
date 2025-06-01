@@ -11,7 +11,7 @@ const Project = () => (
           href="https://mern-auth-sigma-ashen.vercel.app/"
           className="work__img"
         >
-          <img src="/src/assets/MERN-Auth.png" alt="User Auth" />
+          <img src="../assets/MERN-Auth.png" alt="User Auth" />
         </a>
         <div className="project1__text">
           <h3 className="project1__title">COMPLETE MERN AUTH</h3>
@@ -34,7 +34,7 @@ const Project = () => (
 
       <div className="project2">
         <a href="https://shirtzone.netlify.app/" className="work__img">
-          <img src="/src/assets/ecormerse_webpage.jpg" />
+          <img src="../assets/ecormerse_webpage.jpg" />
         </a>
         <div className="project2__text">
           <h3 className="project2__title">ShirtZone</h3>
@@ -53,7 +53,7 @@ const Project = () => (
 
       <div className="project3">
         <a href="https://scanspark.netlify.app/" className="work__img">
-          <img src="/src/assets/qrcode_webpage.jpg" alt="Work 3" />
+          <img src="../assets/qrcode_webpage.jpg" alt="Work 3" />
         </a>
         <div className="project3__text">
           <h3 className="project3__title">QR Code Generator</h3>

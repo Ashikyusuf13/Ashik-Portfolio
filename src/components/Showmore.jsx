@@ -9,7 +9,7 @@ const Showmore = () => (
           href="https://mern-auth-sigma-ashen.vercel.app/"
           className="work__img"
         >
-          <img src="/src/assets/MERN-Auth.png" alt="User Auth" />
+          <img src="../assets/MERN-Auth.png" alt="User Auth" />
         </a>
         <div className="project1__text">
           <h3 className="project1__title">COMPLETE MERN AUTH</h3>
@@ -32,7 +32,7 @@ const Showmore = () => (
 
       <div className="project2">
         <a href="https://shirtzone.netlify.app/" className="work__img">
-          <img src="/src/assets/ecormerse_webpage.jpg" />
+          <img src="../assets/ecormerse_webpage.jpg" />
         </a>
         <div className="project2__text">
           <h3 className="project2__title">ShirtZone</h3>
@@ -50,7 +50,7 @@ const Showmore = () => (
 
       <div className="project3">
         <a href="https://scanspark.netlify.app/" className="work__img">
-          <img src="/src/assets/qrcode_webpage.jpg" alt="Work 3" />
+          <img src="../assets/qrcode_webpage.jpg" alt="Work 3" />
         </a>
         <div className="project3__text">
           <h3 className="project3__title">QR Code Generator</h3>
@@ -68,7 +68,7 @@ const Showmore = () => (
 
       <div className="project4">
         <a href="https://globarate.netlify.app/" className="currency_webpage">
-          <img src="/src/assets/currency_webpage.jpg" alt="currency_webpage" />
+          <img src="../assets/currency_webpage.jpg" alt="currency_webpage" />
         </a>
         <div className="project5__text">
           <h3 className="project5__title">Currency Converter</h3>
@@ -87,7 +87,7 @@ const Showmore = () => (
 
       <div className="project5">
         <a href="https://atmosense.netlify.app/" className="work__img">
-          <img src="/src/assets/weater_webpage.jpg" alt="weater_webpage" />
+          <img src="../assets/weater_webpage.jpg" alt="weater_webpage" />
         </a>
         <div className="project6__text">
           <h3 className="project6__title">Weather Moniter</h3>
@@ -106,7 +106,7 @@ const Showmore = () => (
 
       <div className="project6">
         <a href="https://fitmeter.netlify.app/" className="work__img">
-          <img src="/src/assets/passgen_webpage.jpg" alt="Bmi_webpage" />
+          <img src="../assets/passgen_webpage.jpg" alt="Bmi_webpage" />
         </a>
         <div className="project6__text">
           <h3 className="project6__title">Password Generator</h3>
@@ -125,7 +125,7 @@ const Showmore = () => (
 
       <div className="project6">
         <a href="https://fitmeter.netlify.app/" className="work__img">
-          <img src="/src/assets/Bmi_webpage.jpg" alt="Bmi_webpage" />
+          <img src="../assets/Bmi_webpage.jpg" alt="Bmi_webpage" />
         </a>
         <div className="project6__text">
           <h3 className="project6__title">BMI Moniter</h3>
@@ -143,7 +143,7 @@ const Showmore = () => (
 
       <div className="project6">
         <a href="https://wise-path.netlify.app/" className="work__img">
-          <img src="/src/assets/advise_webpage.jpg" alt="advise" />
+          <img src="../assets/advise_webpage.jpg" alt="advise" />
         </a>
         <div className="project4__text">
           <h3 className="project4__title">Advise API</h3>
