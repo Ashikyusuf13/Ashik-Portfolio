@@ -1,0 +1,6 @@
+/* Import the original HTML/CSS styles for the portfolio */
+@import url('./styles.css');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}

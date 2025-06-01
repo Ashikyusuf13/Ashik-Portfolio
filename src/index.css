@@ -1,0 +1,9 @@
+/* Remove Vite/React demo styles and apply portfolio base styles */
+@import url('./assets/portfolio.css');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #222;
+}
