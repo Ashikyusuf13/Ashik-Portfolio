@@ -10,7 +10,7 @@ import advise from "../assets/advise_webpage.jpg";
 
 const Showmore = () => (
   <section className="work section">
-    <h2 className="section-title">Projects</h2>
+    <h2 className="section-title">MERN Projects</h2>
     <div className="work__container bd-grid">
       <div className="project1">
         <a
@@ -37,7 +37,9 @@ const Showmore = () => (
           </a>
         </div>
       </div>
-
+    </div>
+    <h2 className="section-title">React Projects</h2>
+    <div className="work__container bd-grid">
       <div className="project2">
         <a href="https://shirtzone.netlify.app/" className="work__img">
           <img src={ecommerce} alt="ShirtZone" />
@@ -113,7 +115,7 @@ const Showmore = () => (
       </div>
 
       <div className="project6">
-        <a href="https://fitmeter.netlify.app/" className="work__img">
+        <a href="https://zeroguess.netlify.app/" className="work__img">
           <img src={passgen} alt="Password Generator" />
         </a>
         <div className="project6__text">
@@ -125,7 +127,7 @@ const Showmore = () => (
             user-friendly interface, enhancing online security with ease and
             efficiency.
           </p>
-          <a href="https://fitmeter.netlify.app/" className="project_btn">
+          <a href="https://zeroguess.netlify.app/" className="project_btn">
             View Project
           </a>
         </div>
