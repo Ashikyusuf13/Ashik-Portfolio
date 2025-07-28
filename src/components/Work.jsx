@@ -76,7 +76,7 @@ const Project = () => (
         <Link
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           to="/showmore"
-          className="showmore_btn__link"
+          className="button"
         >
           Show More
         </Link>

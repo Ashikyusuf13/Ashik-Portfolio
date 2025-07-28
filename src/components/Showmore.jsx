@@ -37,6 +37,25 @@ const Showmore = () => (
           </a>
         </div>
       </div>
+
+      <div className="project1">
+        <a href="#" className="work__img">
+          <img alt="On Going Project" />
+        </a>
+        <div className="project1__text">
+          <h3 className="project1__title">Complete LMS Platform</h3>
+          <p className="project1__description">
+            An LLM-powered learning management platform (LMS) currently in
+            development. Features real-time Stripe payment integration for
+            secure course purchases and Clerk authentication for user
+            management. Designed to support course creation, enrollment, and
+            progress tracking with a modern MERN stack architecture. (On Going)
+          </p>
+          <a href="#" className="project_btn">
+            On Going
+          </a>
+        </div>
+      </div>
     </div>
     <h2 className="section-title">React Projects</h2>
     <div className="work__container bd-grid">
