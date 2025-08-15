@@ -7,6 +7,7 @@ import weather from "../assets/weater_webpage.jpg";
 import passgen from "../assets/passgen_webpage.jpg";
 import bmi from "../assets/Bmi_webpage.jpg";
 import advise from "../assets/advise_webpage.jpg";
+import ademy from "../assets/Ademy.png";
 
 const Showmore = () => (
   <section className="work section">
@@ -39,8 +40,8 @@ const Showmore = () => (
       </div>
 
       <div className="project1">
-        <a href="#" className="work__img">
-          <img alt="On Going Project" />
+        <a href="https://ay-ademy.vercel.app" className="work__img">
+          <img src={ademy} alt="Ademy" />
         </a>
         <div className="project1__text">
           <h3 className="project1__title">Complete LMS Platform</h3>
@@ -51,8 +52,8 @@ const Showmore = () => (
             management. Designed to support course creation, enrollment, and
             progress tracking with a modern MERN stack architecture. (On Going)
           </p>
-          <a href="#" className="project_btn">
-            On Going
+          <a href="https://ay-ademy.vercel.app" className="project_btn">
+            View Project
           </a>
         </div>
       </div>

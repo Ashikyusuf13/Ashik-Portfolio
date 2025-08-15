@@ -1,7 +1,7 @@
 import React from "react";
 import mernAuth from "../assets/MERN-Auth.png";
 import ecommerce from "../assets/ecormerse_webpage.jpg";
-import qrcode from "../assets/qrcode_webpage.jpg";
+import ademy from "../assets/Ademy.png";
 
 import { Link } from "react-router-dom";
 import "../style/viewproj.css";
@@ -55,19 +55,20 @@ const Project = () => (
         </div>
       </div>
 
-      <div className="project3">
-        <a href="https://scanspark.netlify.app/" className="work__img">
-          <img src={qrcode} alt="QR Code Generator" />
+      <div className="project1">
+        <a href="https://ay-ademy.vercel.app" className="work__img">
+          <img src={ademy} alt="Ademy" />
         </a>
-        <div className="project3__text">
-          <h3 className="project3__title">QR Code Generator</h3>
-          <p className="project3__description">
-            It is a lightweight, responsive QR Code Generator web app built with
-            HTML, CSS, JavaScript, and React. It lets users quickly generate QR
-            codes from any input or URL in real time, featuring a clean UI
-            designed for speed and simplicity.
+        <div className="project1__text">
+          <h3 className="project1__title">Complete LMS Platform</h3>
+          <p className="project1__description">
+            An LLM-powered learning management platform (LMS) currently in
+            development. Features real-time Stripe payment integration for
+            secure course purchases and Clerk authentication for user
+            management. Designed to support course creation, enrollment, and
+            progress tracking with a modern MERN stack architecture. (On Going)
           </p>
-          <a href="https://scanspark.netlify.app/" className="project_btn">
+          <a href="https://ay-ademy.vercel.app" className="project_btn">
             View Project
           </a>
         </div>
