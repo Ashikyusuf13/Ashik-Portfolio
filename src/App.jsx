@@ -10,11 +10,10 @@ import Showmore from "./components/Showmore";
 import "./App.css";
 
 function App() {
-  const location = useLocation();
-
+  const loacaion = useLocation();
   return (
-    <div>
-      {location.pathname !== "/showmore" && <Header />}
+    <>
+      {loacaion.pathname !== "/showmore" && <Header />}
       <main className="l-main">
         <Routes>
           <Route
@@ -33,7 +32,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
